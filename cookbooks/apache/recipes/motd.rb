@@ -7,6 +7,6 @@ file '/etc/motd' do
  WELCOME TO MY NODE, YAKHI!!
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-Hostname is this: #(hostname)
+Hostname is this: #{hostname}
 "
 end
