@@ -1,5 +1,12 @@
 hostname = node['hostname']
 
 file '/etc/motd' do
-	content "Hostname is this: #(hostname)"
+	content "
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ WELCOME TO MY NODE, YAKHI!!
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Hostname is this: #(hostname)
+"
 end
