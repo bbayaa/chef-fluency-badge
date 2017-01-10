@@ -1,11 +1,11 @@
 hostname = node['hostname']
 
 file '/etc/motd' do
-	content '
-		@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-		 WELCOME TO MY DATABASE, YAKHI!!
-		@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	content "
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	 WELCOME TO MY DATABASE, YAKHI!!
+	@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-		Hostname is this: #{hostname}
-'
+	Hostname is this: #{hostname}
+"
 end
